@@ -42,7 +42,7 @@ function createCardBody(occupation) {
 }
 
 //function for CardFooter
-function createCardFooter(startingprice) {
+function createCardFooter(startingPrice) {
   const cardFooter = document.createElement("div");
   const text = document.createTextNode(startingPrice);
 
@@ -76,3 +76,4 @@ function start() {
     createCard(freelancer);
   });
 }
+start();
