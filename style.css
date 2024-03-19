@@ -1,22 +1,24 @@
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   margin: 1rem;
-}
+} */
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1 rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* gap: 1 rem;
+  margin: 1rem; */
 }
 
 .card {
-  padding: 1rem;
+  /* padding: 1rem; */
   background-color: white;
   border: 2px solid black;
   border-radius: 15px;
   overflow: hidden;
   text-align: center;
+  margin: 0.5rem;
 }
 
 .cardHeader {
@@ -28,11 +30,10 @@
 }
 
 .cardBody {
-  font-size: 15px;
-  padding: 1rem 1rem;
+  font-size: 20px;
+  /* padding: 1rem 1rem; */
 }
 
 .cardFooter {
   margin-top: 1rem;
-  padding: 1rem 1rem;
 }
